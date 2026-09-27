@@ -1,7 +1,7 @@
 # Scribly — a Grammarly-style writing assistant
 
 Full-stack app: **React (Vite) + Express + MongoDB**, with JWT auth and a
-**fully self-contained, offline AI writing engine** — no third-party APIs,
+**fully self-contained, offline AI writing engine** no third-party APIs,
 no API keys, no network calls of any kind at runtime.
 
 ## What's included
