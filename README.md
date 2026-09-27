@@ -1,1 +1,0 @@
-# scribly-grammar-checking-app

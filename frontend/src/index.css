@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-[#f6f8f7] text-ink-900 font-sans antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9d6d0;
+  border-radius: 8px;
+}
+
+.underline-error {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ef4444;
+  text-decoration-thickness: 2px;
+}
+.underline-style {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #3b82f6;
+  text-decoration-thickness: 2px;
+}
+.underline-clarity {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #a855f7;
+  text-decoration-thickness: 2px;
+}
+.underline-engagement {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #f97316;
+  text-decoration-thickness: 2px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.underline-delivery {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #14b8a6;
+  text-decoration-thickness: 2px;
+}
